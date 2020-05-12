@@ -1,36 +1,36 @@
 keyword-inspire-theme-label;keyword-inspire-theme-ref
-Administratieve eenheden;http://inspire.ec.europa.eu/theme/au
-Adressen;http://inspire.ec.europa.eu/theme/ad
-Atmosferische omstandigheden;http://inspire.ec.europa.eu/theme/ac
+Addresses;http://inspire.ec.europa.eu/theme/ad
+Administrative units;http://inspire.ec.europa.eu/theme/au
+Agricultural and aquaculture facilities;http://inspire.ec.europa.eu/theme/af
+Area management/restriction/regulation zones and reporting units;http://inspire.ec.europa.eu/theme/am
+Atmospheric conditions;http://inspire.ec.europa.eu/theme/ac
 Atmospheric Conditions and meteorological geographical features;http://inspire.ec.europa.eu/theme/ac-mf
-Beschermde gebieden;http://inspire.ec.europa.eu/theme/ps
-Biogeografische gebieden;http://inspire.ec.europa.eu/theme/br
-Bodem;http://inspire.ec.europa.eu/theme/so
-Bodemgebruik;http://inspire.ec.europa.eu/theme/lc
-Energiebronnen;http://inspire.ec.europa.eu/theme/er
-Faciliteiten voor landbouw en aquacultuur;http://inspire.ec.europa.eu/theme/af
-Faciliteiten voor productie en industrie;http://inspire.ec.europa.eu/theme/pf
-Gebieden met natuurrisico's;http://inspire.ec.europa.eu/theme/nz
-Gebiedsbeheer, gebieden waar beperkingen gelden, gereguleerde gebieden en rapportage-eenheden;http://inspire.ec.europa.eu/theme/am
-Gebouwen;http://inspire.ec.europa.eu/theme/bu
-Geografisch rastersysteem;http://inspire.ec.europa.eu/theme/gg
-Geografische namen;http://inspire.ec.europa.eu/theme/gn
-Geologie;http://inspire.ec.europa.eu/theme/ge
-Habitats en biotopen;http://inspire.ec.europa.eu/theme/hb
-Hoogte;http://inspire.ec.europa.eu/theme/el
-Hydrografie;http://inspire.ec.europa.eu/theme/hy
-Kadastrale percelen;http://inspire.ec.europa.eu/theme/cp
-Landgebruik;http://inspire.ec.europa.eu/theme/lu
-Menselijke gezondheid en veiligheid;http://inspire.ec.europa.eu/theme/hh
-Meteorologische geografische kenmerken;http://inspire.ec.europa.eu/theme/mf
-Milieubewakingsvoorzieningen;http://inspire.ec.europa.eu/theme/ef
-Minerale bronnen;http://inspire.ec.europa.eu/theme/mr
-Nutsdiensten en overheidsdiensten;http://inspire.ec.europa.eu/theme/us
-Oceanografische geografische kenmerken;http://inspire.ec.europa.eu/theme/of
-Orthobeeldvorming;http://inspire.ec.europa.eu/theme/oi
-Spreiding van de bevolking — demografie;http://inspire.ec.europa.eu/theme/pd
-Spreiding van soorten;http://inspire.ec.europa.eu/theme/sd
-Statistische eenheden;http://inspire.ec.europa.eu/theme/su
-Systemen voor verwijzing door middel van coördinaten;http://inspire.ec.europa.eu/theme/rs
-Vervoersnetwerken;http://inspire.ec.europa.eu/theme/tn
-Zeegebieden;http://inspire.ec.europa.eu/theme/sr
+Bio-geographical regions;http://inspire.ec.europa.eu/theme/br
+Buildings;http://inspire.ec.europa.eu/theme/bu
+Cadastral parcels;http://inspire.ec.europa.eu/theme/cp
+Coordinate reference systems;http://inspire.ec.europa.eu/theme/rs
+Elevation;http://inspire.ec.europa.eu/theme/el
+Energy resources;http://inspire.ec.europa.eu/theme/er
+Environmental monitoring facilities;http://inspire.ec.europa.eu/theme/ef
+Geographical grid systems;http://inspire.ec.europa.eu/theme/gg
+Geographical names;http://inspire.ec.europa.eu/theme/gn
+Geology;http://inspire.ec.europa.eu/theme/ge
+Habitats and biotopes;http://inspire.ec.europa.eu/theme/hb
+Human health and safety;http://inspire.ec.europa.eu/theme/hh
+Hydrography;http://inspire.ec.europa.eu/theme/hy
+Land cover;http://inspire.ec.europa.eu/theme/lc
+Land use;http://inspire.ec.europa.eu/theme/lu
+Meteorological geographical features;http://inspire.ec.europa.eu/theme/mf
+Mineral resources;http://inspire.ec.europa.eu/theme/mr
+Natural risk zones;http://inspire.ec.europa.eu/theme/nz
+Oceanographic geographical features;http://inspire.ec.europa.eu/theme/of
+Orthoimagery;http://inspire.ec.europa.eu/theme/oi
+Population distribution — demography;http://inspire.ec.europa.eu/theme/pd
+Production and industrial facilities;http://inspire.ec.europa.eu/theme/pf
+Protected sites;http://inspire.ec.europa.eu/theme/ps
+Sea regions;http://inspire.ec.europa.eu/theme/sr
+Soil;http://inspire.ec.europa.eu/theme/so
+Species distribution;http://inspire.ec.europa.eu/theme/sd
+Statistical units;http://inspire.ec.europa.eu/theme/su
+Transport networks;http://inspire.ec.europa.eu/theme/tn
+Utility and governmental services;http://inspire.ec.europa.eu/theme/us

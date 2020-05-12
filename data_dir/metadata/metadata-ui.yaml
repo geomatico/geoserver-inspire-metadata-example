@@ -6,40 +6,33 @@ attributes:
   - key: metadata-language-code
     fieldType: DROPDOWN
     values:
-      - dut
       - eng
+      - spa
       - fre
-      - ger
   - key: metadata-language
     fieldType: DERIVED
     derivedFrom: metadata-language-code
     values:
-      - Nederlands
-      - Engels
-      - Frans
-      - Duits
+      - English
+      - Español
+      - Français
   - key: data-language-code
     fieldType: DROPDOWN
     values:
-      - dut
       - eng
+      - spa
       - fre
-      - ger
   - key: data-language
     fieldType: DERIVED
     derivedFrom: data-language-code
     values:
-      - Nederlands
-      - Engels
-      - Frans
-      - Duits
+      - English
+      - Español
+      - Français
   - key: data-date
     fieldType: COMPLEX
     typename: data-identification-date
     occurrence: REPEAT
-  - key: data-valid-date
-    fieldType: COMPLEX
-    typename: date-range
   - key: parent-identifier
     fieldType: TEXT
   - key: alternate-title
@@ -130,6 +123,16 @@ attributes:
     fieldType: COMPLEX
     typename: transfer-option
     occurrence: REPEAT
+  - key: keyword-inspire-theme-label
+    fieldType: REQUIREBOX
+    occurrence: REPEAT
+  - key: keyword-inspire-theme-ref
+    fieldType: DERIVED
+    derivedFrom: keyword-inspire-theme-label
+    occurrence: REPEAT
+  - key: keyword-gemet-concept
+    fieldType: REQUIREBOX
+    occurrence: REPEAT
   - key: rc-rc-use-limitation
     fieldType: TEXT_AREA
     occurrence: REPEAT
@@ -147,15 +150,15 @@ attributes:
   - key: rc-lim-other-constraint-label
     fieldType: DROPDOWN
     values:
-      - geen beperkingen
-      - Openbare toegang beperkt volgens artikel 13(1)(a) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(b) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(c) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(d) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(e) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(f) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(g) van de INSPIRE Richtlijn
-      - Openbare toegang beperkt volgens artikel 13(1)(h) van de INSPIRE Richtlijn
+      - no restrictions
+      - public access limited according to Article 13(1)(a) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(b) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(c) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(d) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(e) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(f) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(g) of the INSPIRE Directive
+      - public access limited according to Article 13(1)(h) of the INSPIRE Directive
     occurrence: REPEAT
   - key: rc-lim-other-constraint-ref
     fieldType: DERIVED
@@ -188,7 +191,7 @@ attributes:
     occurrence: REPEAT
   - key: data-quality-conformance
     fieldType: COMPLEX
-    typename: conformance
+    typename: data-quality-conformance
   - key: lineage-statement
     fieldType: TEXT_AREA
   - key: lineage-source
@@ -200,16 +203,6 @@ attributes:
   - key: data-quality-process-step
     fieldType: COMPLEX
     typename: process-step
-    occurrence: REPEAT
-  - key: keyword-inspire-theme-label
-    fieldType: REQUIREBOX
-    occurrence: REPEAT
-  - key: keyword-inspire-theme-ref
-    fieldType: DERIVED
-    derivedFrom: keyword-inspire-theme-label
-    occurrence: REPEAT
-  - key: keyword-gemet-concept
-    fieldType: REQUIREBOX
     occurrence: REPEAT
   - key: keyword-free
     fieldType: TEXT
@@ -248,6 +241,8 @@ types:
     attributes:
       - key: organisation
         fieldType: TEXT
+      - key: individual
+        fieldType: TEXT
       - key: contactinfo
         fieldType: COMPLEX
         typename: contactinfo
@@ -275,7 +270,7 @@ types:
           - creation
           - publication
           - revision
-  - typename: conformance
+  - typename: data-quality-conformance
     attributes:
       - key: specification-ref
         fieldType: TEXT
@@ -296,8 +291,8 @@ types:
       - key: pass
         fieldType: DROPDOWN
         values:
-          - true
-          - false
+          - 'true'
+          - 'false'
   - typename: date-range
     attributes:
       - key: start-date

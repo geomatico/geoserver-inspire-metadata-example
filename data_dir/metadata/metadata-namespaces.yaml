@@ -6,6 +6,6 @@ namespaces:
   - prefix: gmx
     uri: http://www.isotc211.org/2005/gmx
   - prefix: gml
-    uri: http://www.opengis.net/gml 
+    uri: http://www.opengis.net/gml
   - prefix: xlink
-    uri:  http://www.w3.org/1999/xlink  
+    uri: http://www.w3.org/1999/xlink
