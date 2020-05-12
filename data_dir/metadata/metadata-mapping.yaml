@@ -74,7 +74,7 @@ geonetworkmapping:
   - geoserver: keyword-inspire-theme-ref
     geonetwork: //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords[gmd:thesaurusName/gmd:CI_Citation/gmd:title/gmx:Anchor="GEMET - INSPIRE themes, version 1.0"]/gmd:keyword/gmx:Anchor/text()
   - geoserver: keyword-gemet-concept
-    geonetwork: //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords[gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString="GEMET - Conces, version 2.4"]/gmd:keyword/gco:CharacterString/text()
+    geonetwork: //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords[gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString="GEMET - Concepts, version 2.4"]/gmd:keyword/gco:CharacterString/text()
   - geoserver: keyword-free
     geonetwork: //gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords[not(gmd:thesaurusName) or gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString[contains(., 'DOV')]]/gmd:keyword/gco:CharacterString/text()
 

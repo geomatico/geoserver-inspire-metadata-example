@@ -1,17 +1,17 @@
 # Managing an INSPIRE metadata catalog in Geoserver
 
-Using CSW, CSW-ISO and Metadata extensions, and applying a modified version of the sample files from the manual.
+Using GeoServer 2.17.0 with CSW, CSW-ISO and Metadata extensions, and applying a modified version of the sample files from the manual.
 
 * [CSW extension documentation](https://docs.geoserver.org/stable/en/user/services/csw/index.html#csw)
 * [CSW-ISO extension documentation](https://docs.geoserver.org/stable/en/user/community/csw-iso/index.html)
 * [Metadata extension documentation](https://docs.geoserver.org/stable/en/user/community/metadata/index.html)
 * [INSPIRE metadata tutorial and sample files](https://docs.geoserver.org/stable/en/user/tutorials/metadata/index.html#tutorial-metadata)
 
-## Found bugs
+## Bugs found
 
 The extension can be used, with some rough edges.
 
-Could be interesting to talk to [Niels Charlier](https://github.com/NielsCharlier), contributor of latest changes to csw-iso and metadata extensions, to work together in fixing these.
+Could be interesting to talk to [Niels Charlier](https://github.com/NielsCharlier), contributor of latest changes to csw-iso and metadata extensions, and work together on fixing them.
 
 ### Extension is missing some requirements
 
@@ -37,8 +37,8 @@ Jar file versions for GeoServer 2.17.0 can be downloaded from:
 
 The provided files in `data_dir` will fix these issues to provide a working example.
 
-## Some useful code:
+## Some insightful code
 
-* ResourceInfo: https://github.com/geoserver/geoserver/blob/master/src/main/src/main/java/org/geoserver/catalog/impl/ResourceInfoImpl.java
-* CatalogStore: https://github.com/geoserver/geoserver/blob/master/src/extension/csw/core/src/main/java/org/geoserver/csw/store/internal/InternalCatalogStore.java#L100
-* MetaDataDescriptor: https://github.com/geoserver/geoserver/blob/master/src/community/csw-iso/src/main/java/org/geoserver/csw/records/iso/MetaDataDescriptor.java
+* [ResourceInfo](https://github.com/geoserver/geoserver/blob/master/src/main/src/main/java/org/geoserver/catalog/impl/ResourceInfoImpl.java)
+* [CatalogStore](https://github.com/geoserver/geoserver/blob/master/src/extension/csw/core/src/main/java/org/geoserver/csw/store/internal/InternalCatalogStore.java#L100)
+* [MetaDataDescriptor](https://github.com/geoserver/geoserver/blob/master/src/community/csw-iso/src/main/java/org/geoserver/csw/records/iso/MetaDataDescriptor.java)
